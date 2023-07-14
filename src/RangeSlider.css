@@ -1,0 +1,26 @@
+.range-slider {
+    width: 100%;
+  }
+  
+  .range-slider input[type='range'] {
+    width: 100%;
+  }
+  
+  .range-slider .track {
+    background: #ccc;
+    height: 4px;
+    position: relative;
+  }
+  
+  .range-slider .thumb {
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 16px;
+    position: absolute;
+    top: -6px;
+    transform: translateX(-50%);
+    width: 16px;
+  }
+  
